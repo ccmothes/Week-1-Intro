@@ -13,7 +13,7 @@ In addition to this week's lesson content, here are some useful and recommended 
 
 
 ## Material/Assignment
-Start with the [intro-basics](https://github.com/Data-Sci-Intro-2023/Week-1-Intro/blob/main/lessons/intro-basics.md) lesson, follow the instructions to create a GitHub repository and finish working through both that lesson along with the [intro-spatial](https://github.com/Data-Sci-Intro-2023/Week-1-Intro/blob/main/lessons/intro-spatial.md) lesson. You should try to complete the exercises in both lessons and save your answers in your Rmarkdown documents, but you will not be graded on them. 
+Start with the [intro-basics](https://github.com/Env-Data-Sci-FA23/Week-1-Intro/blob/main/lessons/intro-basics.md) lesson, follow the instructions to create a GitHub repository and finish working through the lesson, and commit and push your changes to your GitHub repository when you're done.
 
 This week you will be graded on:
 
