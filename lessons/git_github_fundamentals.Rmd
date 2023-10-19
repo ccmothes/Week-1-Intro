@@ -1,0 +1,78 @@
+---
+title: "Git and GitHub Fundamentals"
+author: "Caitlin Mothes, PhD"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Terminal Commands
+
+To open your Terminal, you have a few options:
+
+1.  Within your R Project, open the 'Terminal' tab next to the 'Console' tab
+
+2.  On a Mac, search 'Terminal'
+
+3.  On a PC, search 'Git Bash'
+
+Common terminal/bash commands you may use when working with git/Github version control:
+
+-   `pwd` : print working directory (i.e. the current 'home' directory the computer will search for files in)
+
+-   `ls` : list all directories/folders and files within current working directory
+
+-   `cd` : change directory. `cd` is followed by the directory/folder name you want to move into, for example if 'Desktop' was listed as a folder when you run `ls`, to navigate to that folder you would type `cd Desktop/`. Remember spelling, capitalization, and spaces between commands is VERY important.
+
+-   `cd ../` : move *back* one directory/folder
+
+    -   `cd ~` will set you back to your computer's root directory, usually something like 'users/yourname'
+
+### Git Commands
+
+Order is important! Your general git workflow should be as follows:
+
+1.  **a:** Fresh repo, does not yet exist on your local machine
+
+-   `git clone [copied HTTPS repo URL]` : This will create a **folder** in whatever your current working directory is (see with `pwd`) with the **same name** as your GitHub repository and a copy of all the files in that repository. **DO NOT** manually create a folder with the repo name, `git clone` will do that for you.
+
+1.  **b:** Existing repo, fresh session/work day
+
+-   `git pull` : This is to make sure any changes up on GitHub are copied to your local repo (extra important if you are collaborating with others)
+
+2.  `git add [filename]` to add/stage a specific file **or** `git add .` to add **all** untracked files (remember to SAVE your files first, otherwise git will not be tracking it).
+
+3.  `git commit -m "unique commit message"` : commit all *added/staged* files, with a short but informative message describing those file changes
+
+    *Note:* you can add/commit multiple times and multiple files before pushing everything. But just don't forget to `push` at the end!
+
+4.  `git push` : send everything that you've committed to GitHub
+
+    \~ **Thoughout the above workflow** use `git status` to check the status of your files, which are untracked, which are staged and ready to commit, is everything ready to push to GitHub? \~
+
+You can also use this [git commands cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf), which has even more commands you can use.
+
+### Collaborating on GitHub
+
+#### Branching vs. Forking
+
+**Forking** : Creates and independent copy of a GitHub repository
+
+**Branching** : Creates a parallel copy of a codebase within the same repository
+
+We will only be forking in this class, but if you'd like to explore collaborating with branches, [this guide](https://marketsplash.com/tutorials/git/git-fork-vs-branch/) gives a good comparison of the two and you can [use this resource](https://happygitwithr.com/git-branches) to learn more about how to work in branches.
+
+#### How to Fork
+
+Go to the main page of the repository you want to fork, click the **'Fork'** button in the upper right, this will bring you to a page to create a copy of the repository to your personal account. Leave all the defaults as is, and Fork!
+
+Next, navigate to the main page of **your** forked repository, click the **'Code'** drop down and copy the HTTPS URL, then clone it to your computer just as we've been practicing. Now you can treat this repository as your own copy, add commit and push and changes as you please.
+
+#### Pull Requests
+
+A pull request is a request to contribute your own changes to the codebase of a specific GitHub repository. Normally when you submit a pull request, you request collaborators/colleagues to review your coding changes, add comments or suggestions for improvement, and eventually approve the pull request when all looks good. The last step is to **merge** your changes to the main branch/repository so they are fully integrated into the codebase.
+
+You can use [this guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request) for suggestions on how to provide a good pull request review.
