@@ -18,7 +18,7 @@ Use the [git_github_fundamentals](https://github.com/Env-Data-Sci-FA23/Week-1-In
 
 **To fully complete this week's assignment:**
 
--   Got to the [**Issues**](https://github.com/Env-Data-Sci-FA23/Week-1-Intro/issues)tab in this repository and add a comment with the link to the repository you made on your personal GitHub account you made as a part of the 'intro-basics' lesson. We will check to see that you successfully pushed some local code/files to GitHub.
--   Second, follow the instructions in 'exercise_YOURNAME.Rmd' to work through the coding exercise (*to the best of your ability, completion/accuracy is not required*), submit a pull request and request a review by your assigned reviewer in 'PR_reviewer_assignments', and then **complete** and approve (do NOT merge) the pull request you were assigned.
+-   Got to the [**Issues**](https://github.com/Env-Data-Sci-FA23/Week-1-Intro/issues) tab in this repository and add a comment with the link to the repository you made on your personal GitHub account you made as a part of the 'intro-basics' lesson. We will check to see that you successfully pushed some local code/files to GitHub.
+-   Second, **carefully** follow the instructions in 'exercise_YOURNAME.Rmd' to fork/sync the class Week-1-Intro repo, work through the coding exercise (*to the best of your ability, completion/accuracy is not required*), submit a pull request and request a review by your assigned reviewer in 'PR_reviewer_assignments', and then **complete** and approve (do NOT merge) the pull request you were assigned.
 
 **Due: End of the day Monday 10/23**
