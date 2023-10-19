@@ -71,6 +71,8 @@ Go to the main page of the repository you want to fork, click the **'Fork'** but
 
 Next, navigate to the main page of **your** forked repository, click the **'Code'** drop down and copy the HTTPS URL, then clone it to your computer just as we've been practicing. Now you can treat this repository as your own copy, add commit and push and changes as you please.
 
+Remember, **Fork first, Clone after**
+
 #### Pull Requests
 
 A pull request is a request to contribute your own changes to the codebase of a specific GitHub repository. Normally when you submit a pull request, you request collaborators/colleagues to review your coding changes, add comments or suggestions for improvement, and eventually approve the pull request when all looks good. The last step is to **merge** your changes to the main branch/repository so they are fully integrated into the codebase.
