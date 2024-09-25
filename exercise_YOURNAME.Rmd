@@ -7,6 +7,7 @@ date: "`r Sys.Date()`"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Assignment Details: This assignment is worth 20 points. 10 points for successfully sbmitting a pull request, 10 points for reviewing a pull request. 
 
 ## Assignment Instructions:
 
